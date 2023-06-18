@@ -1,8 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>
-      HI
-    </h1>
-  </body>
+<html lang="en">
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="toptext">
+  <b>Dad joke Creator</b>
+  </div>
+  <ul>
+  <li>
+    <label for="ftopic">Topic:</label>
+    <input type="text" id="ftopic">
+    <input type="button" onclick="button1()" value="enter">
+  </li>
+  <li>
+    <label for="rbtn">Or create a random one:</label>
+  <input type="button" onclick="button2()" value="Random" id="rbtn">
+  </ul>
+</body>
+<div class="footer">
+<footer>
+  <p>Made With:
+    <a href="https://platform.openai.com/docs/guides/gpt">Chat GPT api</a>
+  </p>
+  <p>Chat GPT website: 
+    <a href="https://chat.openai.com">chat.openai.com</a>
+  </p>
+</footer>
+</div>
 </html>
